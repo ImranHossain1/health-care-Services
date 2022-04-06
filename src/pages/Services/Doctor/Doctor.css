@@ -1,0 +1,10 @@
+.doctor{
+    background-color: rgba(20, 20, 20, 0.922);
+    border-radius:20px ;
+    color: rgb(204, 195, 195);
+}
+.doctor img{
+    width: 100%;
+    height: 500px;
+}
+

@@ -1,0 +1,27 @@
+.about{
+    text-align: justify;
+}
+@media only screen and (max-width:688px) {
+    .doctor-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+@media only screen and (min-width:689px) and (max-width: 991px){
+    .doctor-container{
+        grid-template-columns: repeat(2, 1fr);
+        
+    }
+}
+@media only screen and (min-width: 992px){
+    .about{
+        padding-right: 150px;
+        padding-left: 150px;
+    }
+    .doctor-container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 20px;
+        margin-left: 7%;
+        margin-right: 7%;
+    }
+}

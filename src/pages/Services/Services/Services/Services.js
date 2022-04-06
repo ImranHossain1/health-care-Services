@@ -5,14 +5,6 @@ import Service from '../Service/Service';
 
 const Services = () => {
     const {services} = useAuth();
-    // const {serviceId} = useParams();
-
-    // for(const s of services){
-    //     if(s.key === parseInt(serviceId)){
-    //        return;
-    //     }
-    // }
-    // setDepartment
     return (
         <div>
             {

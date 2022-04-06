@@ -5,6 +5,7 @@ import Home from './pages/Home/Home/Home';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import AuthProvider from './context/AuthProvider';
 import Services from './pages/Services/Services/Services/Services';
+import Footer from './pages/Shared/Footer/Footer';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
             <Route path='/home' element={<Home></Home>}></Route>
             <Route path='/services/:serviceId' element={<Services></Services>}></Route>
           </Routes>
+          <Footer></Footer>
         </BrowserRouter>
       </AuthProvider>
     </div>

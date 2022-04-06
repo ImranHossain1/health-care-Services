@@ -3,59 +3,68 @@
       "key": 1,
       "service_name": "Dental & Maxillofacial Surgery",
       "service_catagory": "Dental",
-      "service_about": "epartment of Neurology of Evercare Hospital Dhaka provides comprehensive consultative services, diagnostic testing and treatment for a broad spectrum of neurological conditions, including diseases of the brain, spinal cord, peripheral nerves and muscles. Evercare Hospital Dhakais the only hospital in the country to be providing advanced and comprehensive Neurology & Neurosurgery facilities under one roof. The Neurology Department has experienced American Board Certified Neurologist and also the only qualified epilepsy specialist of the country. The department uses the latest technology and facilities, and is staffed by an experienced team of neurologists, nurses and technologists, who are committed to patient care. Neuro Rehabilitation services are provided for our patients in association with Physical Medicine & Rehabilitation Centre.",
+      "service_about": "Department of Dental & Maxillofacial Surgery of Evercare Hospital Dhaka offers full scope of the dental specialty, including general dentistry and specialized services in oral & maxillofacial surgery, orthodontics and restorative dentistry (endodontics and prosthodontics). Our aim is to deliver oral health care of the highest standard to our patients through experienced dental surgeons and modern technology. The department provides diagnosis, management and surgical treatment of defects and injuries related to the function and aesthetics of the teeth, gums and jaws. It also provides excellent surgical service for all sorts of maxillofacial surgery & disease.",
       "service_logo": "https://i.ibb.co/xgJ9Hcc/logo.jpg",
+      "consultation": "The department provides consultation services in level-4 (OPD) through highly qualified and experienced Consultants, who carefully evaluate each patient. After diagnosing the patient’s condition, our Consultants discuss available treatment options and recommend the most effective treatment.",
       "doctors": [
         {
           "doctor_id": 1,
           "doctor_name": "Prof. (Dr.) Motiur Rahman Molla",
           "doctor_degree": "BDS, FCPS (Hons), PhD (Japan), FDS, RCPS Glasgow (UK)",
           "doctor_position": "Senior Consultant & Coordinator-Dental & Maxillofacial Surgery",
-          "doctor_image": "https://i.ibb.co/6tbg7DW/doctor-5.jpg"
+          "doctor_image": "https://www.bdspecializedhospital.com/storage/app/public/media/1567682632.jpg"
         },
         {
           "doctor_id": 2,
           "doctor_name": "Dr. Fahmida Ferdousi",
           "doctor_degree": "BDS, MS",
           "doctor_position": "Consultant – Dental & Maxillofacial Surgery",
-          "doctor_image": "https://i.ibb.co/Dk7FNdG/dentist-with-dentistry-tools-isolated.jpg"
+          "doctor_image": "https://www.uhlbd.com/backend/web/product_uploads/1571056996_2_Spina%20Luna%20Biswas.jpg"
         },
         {
           "doctor_id": 3,
           "doctor_name": "Prof. (Dr.) Tahiya Akter",
           "doctor_degree": "BDS, FCPS (Hons), PhD (Japan), FDS, RCPS Glasgow (UK)",
           "doctor_position": "Senior Consultant & Coordinator-Dental & Maxillofacial Surgery",
-          "doctor_image": "https://i.ibb.co/XL42yTq/Dentist-Bussara-1-31vpbc6ij074483i56ul1c.jpg"
+          "doctor_image": "https://www.bdspecializedhospital.com/storage/app/public/media/1573963244.jpg"
         }
       ]
     },
     {
       "key": 2,
-      "service_name": "Hematology & Stem Cell Transplant",
-      "service_catagory": "Blood",
-      "service_about": "epartment of Neurology of Evercare Hospital Dhaka provides comprehensive consultative services, diagnostic testing and treatment for a broad spectrum of neurological conditions, including diseases of the brain, spinal cord, peripheral nerves and muscles. Evercare Hospital Dhakais the only hospital in the country to be providing advanced and comprehensive Neurology & Neurosurgery facilities under one roof. The Neurology Department has experienced American Board Certified Neurologist and also the only qualified epilepsy specialist of the country. The department uses the latest technology and facilities, and is staffed by an experienced team of neurologists, nurses and technologists, who are committed to patient care. Neuro Rehabilitation services are provided for our patients in association with Physical Medicine & Rehabilitation Centre.",
-      "service_logo": "https://i.ibb.co/xgJ9Hcc/logo.jpg",
+      "service_name": "Cardiology",
+      "service_catagory": "Heart",
+      "service_about": "The Cardiology Department of Evercare Hospital Dhaka has gained reputation for its dynamic and innovation in the diagnosis, investigation and treatment of patients with all forms of heart diseases, both generally encountered and complex cases. We have a dedicated unit of four full-time Consultants, and a team of junior doctors, nurses, and technicians trained to the highest standard in cardiac assessment. Our specialists diagnose and manage full range of heart conditions, and we are fully equipped with state-of-the-art facilities and complete range of services – from cardiac investigations to Interventional Cardiology procedures in ultramodern Catheterization Lab (Cath Lab). Cardio-pulmonary rehabilitation program is offered to patients through our Physical Medicine & Rehabilitation Centre. The hospital offers a multidisciplinary in-patient program, and also has complete Coronary Care Unit and Cardiothoracic ICU for critical cardiac patients. For emergency patients, we have 24-hour Accident & Emergency Centre and specialized team for stabilization and treatment of the patient.",
+      "service_logo": "https://i.ibb.co/XFybkpZ/heart.jpg",
+      "consultation": "The department provides consultation services in level-3 (OPD) through highly qualified and experienced Neurology Consultants, who carefully evaluate each patient. After diagnosing the patient’s condition, they discuss available treatment options and recommend the most effective treatment.",
       "doctors": [
         {
           "doctor_id": 1,
-          "doctor_name": "Prof. (Dr.) Motiur Rahman Molla",
-          "doctor_degree": "BDS, FCPS (Hons), PhD (Japan), FDS, RCPS Glasgow (UK)",
-          "doctor_position": "Senior Consultant & Coordinator-Dental & Maxillofacial Surgery",
-          "doctor_image": "https://i.ibb.co/6tbg7DW/doctor-5.jpg"
+          "doctor_name": "Dr. Abu Jafar Mohammed Saleh",
+          "doctor_degree": "MBBS, MRCP (UK), D.Card. (London)",
+          "doctor_position": "Senior Consultant – Clinical & Interventional Cardiology",
+          "doctor_image": "https://doctoryouneed.org/wp-content/uploads/2020/01/1557718349.jpg"
         },
         {
           "doctor_id": 2,
-          "doctor_name": "Dr. Fahmida Ferdousi",
-          "doctor_degree": "BDS, MS",
-          "doctor_position": "Consultant – Dental & Maxillofacial Surgery",
-          "doctor_image": "https://i.ibb.co/Dk7FNdG/dentist-with-dentistry-tools-isolated.jpg"
+          "doctor_name": "Prof. Dr. A. Q. M. Reza",
+          "doctor_degree": "MBBS, MD (Cardiology), MRCP (UK)",
+          "doctor_position": "Senior Consultant & Coordinator – Clinical & Interventional Cardiology",
+          "doctor_image": "https://www.shantimadanhospital.com/images/1pradeep-kumar.jpg"
         },
         {
           "doctor_id": 3,
-          "doctor_name": "Prof. (Dr.) Tahiya Akter",
-          "doctor_degree": "BDS, FCPS (Hons), PhD (Japan), FDS, RCPS Glasgow (UK)",
-          "doctor_position": "Senior Consultant & Coordinator-Dental & Maxillofacial Surgery",
-          "doctor_image": "https://i.ibb.co/XL42yTq/Dentist-Bussara-1-31vpbc6ij074483i56ul1c.jpg"
+          "doctor_name": "Dr. Kazi Atiqur Rahman",
+          "doctor_degree": "MBBS, MD (Cardiology), MRCP (UK)",
+          "doctor_position": "Senior Consultant-Cardiology",
+          "doctor_image": "https://thydoc.com/storage/uploads/doctors//MklizPlPe5Qw80cjQg3lHkaWV5jK7bF6AAK10dwP.jpg"
+        },
+        {
+          "doctor_id": 4,
+          "doctor_name": "Prof. Dr. Md. Atahar Ali",
+          "doctor_degree": "MBBS, FCPS (Internal Medicine), MD (Cardiology)",
+          "doctor_position": "Senior Consultant – Cardiac Electrophysiology, Heart Failure & Interventional Cardiology",
+          "doctor_image": "https://newassets.apollo247.com/doctors/d7e62364-d084-4493-9c9f-45598c1f96fa.jpg"
         }
       ]
     },
@@ -63,29 +72,30 @@
       "key": 3,
       "service_name": "Neurology",
       "service_catagory": "Neuron",
-      "service_about": "epartment of Neurology of Evercare Hospital Dhaka provides comprehensive consultative services, diagnostic testing and treatment for a broad spectrum of neurological conditions, including diseases of the brain, spinal cord, peripheral nerves and muscles. Evercare Hospital Dhakais the only hospital in the country to be providing advanced and comprehensive Neurology & Neurosurgery facilities under one roof. The Neurology Department has experienced American Board Certified Neurologist and also the only qualified epilepsy specialist of the country. The department uses the latest technology and facilities, and is staffed by an experienced team of neurologists, nurses and technologists, who are committed to patient care. Neuro Rehabilitation services are provided for our patients in association with Physical Medicine & Rehabilitation Centre.",
-      "service_logo": "https://i.ibb.co/xgJ9Hcc/logo.jpg",
+      "service_about": "Department of Neurology of Evercare Hospital Dhaka provides comprehensive consultative services, diagnostic testing and treatment for a broad spectrum of neurological conditions, including diseases of the brain, spinal cord, peripheral nerves and muscles. Evercare Hospital Dhakais the only hospital in the country to be providing advanced and comprehensive Neurology & Neurosurgery facilities under one roof. The Neurology Department has experienced American Board Certified Neurologist and also the only qualified epilepsy specialist of the country. The department uses the latest technology and facilities, and is staffed by an experienced team of neurologists, nurses and technologists, who are committed to patient care. Neuro Rehabilitation services are provided for our patients in association with Physical Medicine & Rehabilitation Centre.",
+      "service_logo": "https://i.ibb.co/wJ4SSFm/neuro.jpg",
+      "consultation": "The department provides consultation services in level-3 (OPD) through highly qualified and experienced Neurology Consultants, who carefully evaluate each patient. After diagnosing the patient’s condition, they discuss available treatment options and recommend the most effective treatment.",
       "doctors": [
         {
           "doctor_id": 1,
-          "doctor_name": "Prof. (Dr.) Motiur Rahman Molla",
-          "doctor_degree": "BDS, FCPS (Hons), PhD (Japan), FDS, RCPS Glasgow (UK)",
-          "doctor_position": "Senior Consultant & Coordinator-Dental & Maxillofacial Surgery",
-          "doctor_image": "https://i.ibb.co/6tbg7DW/doctor-5.jpg"
+          "doctor_name": "Dr. Khandker Mahbubar Rahman",
+          "doctor_degree": "MBBS, MD (Neurology)",
+          "doctor_position": "Senior Consultant & Coordinator – Neurology",
+          "doctor_image": "https://ourfreedoctor.com/wp-content/uploads/2016/09/DR.-ZIAUL-KARIM.jpg"
         },
         {
           "doctor_id": 2,
-          "doctor_name": "Dr. Fahmida Ferdousi",
-          "doctor_degree": "BDS, MS",
-          "doctor_position": "Consultant – Dental & Maxillofacial Surgery",
-          "doctor_image": "https://i.ibb.co/Dk7FNdG/dentist-with-dentistry-tools-isolated.jpg"
+          "doctor_name": "Dr. S.M. Hasan Shahriar",
+          "doctor_degree": "MBBS, MRCP (UK)",
+          "doctor_position": "Senior Consultant- Neurology",
+          "doctor_image": "https://www.uhlbd.com/backend/web/product_uploads/1547703167_2_IMG_6510_edit.jpg"
         },
         {
           "doctor_id": 3,
-          "doctor_name": "Prof. (Dr.) Tahiya Akter",
-          "doctor_degree": "BDS, FCPS (Hons), PhD (Japan), FDS, RCPS Glasgow (UK)",
-          "doctor_position": "Senior Consultant & Coordinator-Dental & Maxillofacial Surgery",
-          "doctor_image": "https://i.ibb.co/XL42yTq/Dentist-Bussara-1-31vpbc6ij074483i56ul1c.jpg"
+          "doctor_name": "Prof. Dr. Abdul Kader Shaikh",
+          "doctor_degree": "MBBS, FCPS (Internal Medicine)",
+          "doctor_position": "Senior Consultant- Neurology",
+          "doctor_image": "https://bestlistbd.com/wp-content/uploads/classified-listing/2021/06/1610435407.jpg"
         }
       ]
     }
