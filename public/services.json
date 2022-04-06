@@ -1,0 +1,92 @@
+[
+    {
+      "key": 1,
+      "service_name": "Dental & Maxillofacial Surgery",
+      "service_catagory": "Dental",
+      "service_about": "epartment of Neurology of Evercare Hospital Dhaka provides comprehensive consultative services, diagnostic testing and treatment for a broad spectrum of neurological conditions, including diseases of the brain, spinal cord, peripheral nerves and muscles. Evercare Hospital Dhakais the only hospital in the country to be providing advanced and comprehensive Neurology & Neurosurgery facilities under one roof. The Neurology Department has experienced American Board Certified Neurologist and also the only qualified epilepsy specialist of the country. The department uses the latest technology and facilities, and is staffed by an experienced team of neurologists, nurses and technologists, who are committed to patient care. Neuro Rehabilitation services are provided for our patients in association with Physical Medicine & Rehabilitation Centre.",
+      "service_logo": "https://i.ibb.co/xgJ9Hcc/logo.jpg",
+      "doctors": [
+        {
+          "doctor_id": 1,
+          "doctor_name": "Prof. (Dr.) Motiur Rahman Molla",
+          "doctor_degree": "BDS, FCPS (Hons), PhD (Japan), FDS, RCPS Glasgow (UK)",
+          "doctor_position": "Senior Consultant & Coordinator-Dental & Maxillofacial Surgery",
+          "doctor_image": "https://i.ibb.co/6tbg7DW/doctor-5.jpg"
+        },
+        {
+          "doctor_id": 2,
+          "doctor_name": "Dr. Fahmida Ferdousi",
+          "doctor_degree": "BDS, MS",
+          "doctor_position": "Consultant – Dental & Maxillofacial Surgery",
+          "doctor_image": "https://i.ibb.co/Dk7FNdG/dentist-with-dentistry-tools-isolated.jpg"
+        },
+        {
+          "doctor_id": 3,
+          "doctor_name": "Prof. (Dr.) Tahiya Akter",
+          "doctor_degree": "BDS, FCPS (Hons), PhD (Japan), FDS, RCPS Glasgow (UK)",
+          "doctor_position": "Senior Consultant & Coordinator-Dental & Maxillofacial Surgery",
+          "doctor_image": "https://i.ibb.co/XL42yTq/Dentist-Bussara-1-31vpbc6ij074483i56ul1c.jpg"
+        }
+      ]
+    },
+    {
+      "key": 2,
+      "service_name": "Hematology & Stem Cell Transplant",
+      "service_catagory": "Blood",
+      "service_about": "epartment of Neurology of Evercare Hospital Dhaka provides comprehensive consultative services, diagnostic testing and treatment for a broad spectrum of neurological conditions, including diseases of the brain, spinal cord, peripheral nerves and muscles. Evercare Hospital Dhakais the only hospital in the country to be providing advanced and comprehensive Neurology & Neurosurgery facilities under one roof. The Neurology Department has experienced American Board Certified Neurologist and also the only qualified epilepsy specialist of the country. The department uses the latest technology and facilities, and is staffed by an experienced team of neurologists, nurses and technologists, who are committed to patient care. Neuro Rehabilitation services are provided for our patients in association with Physical Medicine & Rehabilitation Centre.",
+      "service_logo": "https://i.ibb.co/xgJ9Hcc/logo.jpg",
+      "doctors": [
+        {
+          "doctor_id": 1,
+          "doctor_name": "Prof. (Dr.) Motiur Rahman Molla",
+          "doctor_degree": "BDS, FCPS (Hons), PhD (Japan), FDS, RCPS Glasgow (UK)",
+          "doctor_position": "Senior Consultant & Coordinator-Dental & Maxillofacial Surgery",
+          "doctor_image": "https://i.ibb.co/6tbg7DW/doctor-5.jpg"
+        },
+        {
+          "doctor_id": 2,
+          "doctor_name": "Dr. Fahmida Ferdousi",
+          "doctor_degree": "BDS, MS",
+          "doctor_position": "Consultant – Dental & Maxillofacial Surgery",
+          "doctor_image": "https://i.ibb.co/Dk7FNdG/dentist-with-dentistry-tools-isolated.jpg"
+        },
+        {
+          "doctor_id": 3,
+          "doctor_name": "Prof. (Dr.) Tahiya Akter",
+          "doctor_degree": "BDS, FCPS (Hons), PhD (Japan), FDS, RCPS Glasgow (UK)",
+          "doctor_position": "Senior Consultant & Coordinator-Dental & Maxillofacial Surgery",
+          "doctor_image": "https://i.ibb.co/XL42yTq/Dentist-Bussara-1-31vpbc6ij074483i56ul1c.jpg"
+        }
+      ]
+    },
+    {
+      "key": 3,
+      "service_name": "Neurology",
+      "service_catagory": "Neuron",
+      "service_about": "epartment of Neurology of Evercare Hospital Dhaka provides comprehensive consultative services, diagnostic testing and treatment for a broad spectrum of neurological conditions, including diseases of the brain, spinal cord, peripheral nerves and muscles. Evercare Hospital Dhakais the only hospital in the country to be providing advanced and comprehensive Neurology & Neurosurgery facilities under one roof. The Neurology Department has experienced American Board Certified Neurologist and also the only qualified epilepsy specialist of the country. The department uses the latest technology and facilities, and is staffed by an experienced team of neurologists, nurses and technologists, who are committed to patient care. Neuro Rehabilitation services are provided for our patients in association with Physical Medicine & Rehabilitation Centre.",
+      "service_logo": "https://i.ibb.co/xgJ9Hcc/logo.jpg",
+      "doctors": [
+        {
+          "doctor_id": 1,
+          "doctor_name": "Prof. (Dr.) Motiur Rahman Molla",
+          "doctor_degree": "BDS, FCPS (Hons), PhD (Japan), FDS, RCPS Glasgow (UK)",
+          "doctor_position": "Senior Consultant & Coordinator-Dental & Maxillofacial Surgery",
+          "doctor_image": "https://i.ibb.co/6tbg7DW/doctor-5.jpg"
+        },
+        {
+          "doctor_id": 2,
+          "doctor_name": "Dr. Fahmida Ferdousi",
+          "doctor_degree": "BDS, MS",
+          "doctor_position": "Consultant – Dental & Maxillofacial Surgery",
+          "doctor_image": "https://i.ibb.co/Dk7FNdG/dentist-with-dentistry-tools-isolated.jpg"
+        },
+        {
+          "doctor_id": 3,
+          "doctor_name": "Prof. (Dr.) Tahiya Akter",
+          "doctor_degree": "BDS, FCPS (Hons), PhD (Japan), FDS, RCPS Glasgow (UK)",
+          "doctor_position": "Senior Consultant & Coordinator-Dental & Maxillofacial Surgery",
+          "doctor_image": "https://i.ibb.co/XL42yTq/Dentist-Bussara-1-31vpbc6ij074483i56ul1c.jpg"
+        }
+      ]
+    }
+  ]

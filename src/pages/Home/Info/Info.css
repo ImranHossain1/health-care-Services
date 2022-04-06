@@ -1,0 +1,28 @@
+.info-container{
+    border:0;
+    border-radius: 0;
+}
+.images{
+    height: 250px;
+}
+.background{
+    background-color: rgba(0,79,178,.9);
+}
+.background2{
+    background-color: rgba(0,129,232,.9);
+}
+.faIcons{
+    width: 60px;
+    height: 60px;
+}
+.button{
+    background-color: rgba(0,129,232,.9);
+    border: 2px solid white;
+    padding: 5px 15px;
+    color: white;
+
+}
+.button:hover{
+    background-color: white;
+    color: rgba(0,129,232,.9);
+}

@@ -1,0 +1,36 @@
+.carousel-container img{
+    height: 650px;
+}
+
+.caption{
+    border: 1px solid black;
+}
+.heading{
+    color: rgb(200, 81, 6);
+}
+.slogan{
+    color: rgb(174, 97, 15);
+}
+
+
+@media only screen and (max-width:688px) {
+    .carousel-container img{
+        height: auto;
+    }
+    .carousel-caption-left .responsive{
+        display: none;
+    }
+}
+@media only screen and (min-width:689px) and (max-width: 991px){
+    .carousel-container img{
+        height: auto;
+    }
+}
+@media only screen and (min-width: 992px){
+    .carousel-caption-left{
+        position: absolute;
+        top: 30%;
+        text-align: left;
+    }
+}
+
