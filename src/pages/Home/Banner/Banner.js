@@ -19,7 +19,7 @@ const Banner = () => {
                             <h3 className='fw-bolder fs-1'>YOUR <span className='heading'>HEALTH</span></h3>
                             <h3 className='fs-2'>OUR FIRST PRIORITY</h3>
                             <h4 className='fs-3 slogan'>We Serve Better Than Any Other</h4>
-                            <p className='fs-6'>Not Sure what is going on, come in Today for a Symptom check up, There are many Process</p>
+                            <p className='fs-6 fw-bold'>Not Sure what is going on, come in Today for a Symptom check up, There are many Process</p>
                         </div>
                         <Button variant="primary" className='rounded-pill px-3 py-2'>Make An Appointment Today</Button>
                     </Carousel.Caption>
@@ -35,7 +35,7 @@ const Banner = () => {
                             <h3 className='fw-bolder fs-1'>YOUR <span className='heading'>HEALTH</span></h3>
                             <h3 className='fs-2'>OUR FIRST PRIORITY</h3>
                             <h4 className='fs-3 slogan'>We Serve Better Than Any Other</h4>
-                            <p className='fs-6'>Not Sure what is going on, come in Today for a Symptom check up, There are many Process</p>
+                            <p className='fs-6 fw-bold'>Not Sure what is going on, come in Today for a Symptom check up, There are many Process</p>
                         </div>
                         <Button variant="primary" className='rounded-pill px-3 py-2'>Make An Appointment Today</Button>
                     </Carousel.Caption>
@@ -52,7 +52,7 @@ const Banner = () => {
                             <h3 className='fw-bolder fs-1'>YOUR <span className='heading'>HEALTH</span></h3>
                             <h3 className='fs-2'>OUR FIRST PRIORITY</h3>
                             <h4 className='fs-3 slogan'>We Serve Better Than Any Other</h4>
-                            <p className='fs-6'>Not Sure what is going on, come in Today for a Symptom check up, There are many Process</p>
+                            <p className='fs-6 fw-bold'>Not Sure what is going on, come in Today for a Symptom check up, There are many Process</p>
                     </div>
                     <Button variant="primary" className='rounded-pill px-3 py-2'>Make An Appointment Today</Button>
                     </Carousel.Caption>

@@ -1,0 +1,16 @@
+.mission-container{
+    text-align: justify;
+    padding: 0 4% 0 4%;
+}
+
+
+@media only screen and (max-width:688px) {
+}
+@media only screen and (min-width:689px) and (max-width: 991px){
+
+}
+@media only screen and (min-width: 992px){
+    .mission-container{
+        margin: 0 25% 0 25%;
+    }
+}

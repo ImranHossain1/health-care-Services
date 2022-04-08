@@ -19,9 +19,9 @@ const Service = (props) => {
     return (
         <div>
             {selectedService.key?
-                <div>
+                <div className='m-2'>
                     <img src={service_logo} alt="" className='rounded mx-auto d-block img-fluid my-5' />
-                    <h1 className='text-center'>{service_name}</h1>
+                    <h1 className='text-center heading' >{service_name}</h1>
                     <div className='text-center px-3 mt-4'>
                         <h4>ABOUT THE DEPARTMENT</h4>
                         <p className='about'>{service_about}</p>
