@@ -8,7 +8,8 @@ import NavServices from './NavServices/NavServices';
 import { HashLink } from 'react-router-hash-link';
 
 const Navigation = () => {
-    const {services} = useAuth();
+    const [{services}, {user, logOut}] = useAuth();
+    //console.log(services)
     return (
         <>
            <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
@@ -50,8 +51,15 @@ const Navigation = () => {
                         />
                         <Button variant="outline-success">Search</Button>
                     </Form>
-                    <Button as={Link} to="/login" className='ms-2'>Login</Button>
-                    <Button as={Link} to="/login" variant="success" className='ms-2' >Sign up</Button>
+                    {
+                        user?.email? 
+                            <Button as={Link} to="/login" className='ms-2' onClick={logOut}>SignOut</Button>
+                        :
+                            <div>
+                                <Button as={Link} to="/login" className='ms-2'>Login</Button>
+                                <Button as={Link} to="/registration" className='ms-2'>Registration</Button>
+                            </div>
+                    }
                 </Navbar.Collapse>
             </Container>
           </Navbar>

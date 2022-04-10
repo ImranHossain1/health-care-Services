@@ -4,7 +4,7 @@ import useAuth from '../../../../hooks/useAuth';
 import Service from '../Service/Service';
 
 const Services = () => {
-    const {services} = useAuth();
+    const [{services},] = useAuth();
     return (
         <div>
             {
