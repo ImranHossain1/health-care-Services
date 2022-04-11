@@ -2,7 +2,7 @@ import React from 'react';
 
 const Facilities = () => {
     return (
-        <div className='mt-2 mission-container p-3' id='facilities'>
+        <div className='mt-2 mission-container ' id='facilities'>
             <h3 className='fw-bolder fs-3 heading'>About Health Care</h3> 
             <p>Evercare Hospital Dhaka is part of Evercare Group, present in over 25 cities, with 30+ hospitals, 15 clinics and 50+ diagnostic centers across 2 continents, in their mission to provide quality healthcare in emerging markets.</p>
             <p>Evercare Hospital Dhaka is the first and only hospital to be accredited by the Joint Commission International (JCI) 5 times in a row. The JCI Gold Seal of Approval is a globally recognized and reflects an organization’s commitment to best practices in quality and patient safety. Evercare Hospital Dhaka was first accredited by JCI in 2008 and till date remains the only hospital in Bangladesh to hold this international recognized standard. Accreditation by recognized international institutions such as JCI are crucial to drive compliance and improve quality and cost-effectiveness across the hospitals and has become a priority for healthcare organizations across the world.</p>

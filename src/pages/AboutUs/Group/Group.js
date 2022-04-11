@@ -1,7 +1,7 @@
 import React from 'react';
 const Group = () => {
     return (
-        <div className='mt-2 mission-container p-2' id='group'>
+        <div className='mt-2 mission-container ' id='group'>
             <div>
                 <h3 className='fw-bolder fs-2 heading'>The Evercare Group</h3> 
                 <p>The Evercare Group believes access to healthcare is a fundamental right and invests in emerging markets to bring private, quality driven healthcare to meet the needs of local people.</p>

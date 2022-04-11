@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import { useLocation, useNavigate } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import useAuth from '../../../hooks/useAuth';
 import './Login.css'
 const Login = () => {
-    const [,{signInUsingGoogle, error, processLogin, email, setEmail, password,setPassword}] = useAuth();
+    const [,{signInUsingGoogle, error, setError, processLogin, email, setEmail, password,setPassword, handleResetPassword}] = useAuth();
 
     const location = useLocation();
     const navigate = useNavigate();
@@ -12,7 +12,9 @@ const Login = () => {
         signInUsingGoogle()
             .then(result =>{
                 navigate(redirect_uri);
-
+            })
+            .catch(error=>{
+                setError(error.message)
             })
     }
     let handleEmailChange = e =>{
@@ -27,8 +29,11 @@ const Login = () => {
         e.preventDefault();
         //console.log(email, password);
         processLogin(email, password)
-        .then(result =>{
-            navigate(redirect_uri);
+         .then(result =>{
+             navigate(redirect_uri);
+         })
+         .catch(error=>{
+            setError(error.message)
         })
     }
     return (
@@ -50,8 +55,9 @@ const Login = () => {
                     <div className='text-center my-3'>
                         <button type="submit" className="btn btn-primary btn-block my-3">Submit</button>
                         <p className="forgot-password text-right">
-                            Forgot <a href="#">password?</a>
+                            Forgot <a href="#" onClick={handleResetPassword}>password?</a>
                         </p>
+                        <p>Don't you have any account?<Link to='/registration'> Create a new account.</Link></p> 
                     </div>
                     
                 </form>

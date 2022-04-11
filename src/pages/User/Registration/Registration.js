@@ -1,10 +1,24 @@
 import React, { useState } from 'react';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import useAuth from '../../../hooks/useAuth';
 import './Registration.css'
 const Registration = () => {
-    const [,{signInUsingGoogle, error, setError,registerNewUser, email, setEmail, password,setPassword}] = useAuth();
-
-
+    const [,{signInUsingGoogle,setUserName, verifyEmail, error, setError,registerNewUser, email, setEmail, password,setPassword, setName}] = useAuth();
+    const location = useLocation();
+    const navigate = useNavigate();
+    const redirect_uri = '/home';
+    const handleGoogleLogIn=()=>{
+        signInUsingGoogle()
+            .then(result =>{
+                navigate(redirect_uri);
+            })
+            .catch(error=>{
+                setError(error.message)
+            })
+    }
+    const handleNameChange = (e) =>{
+        setName(e.target.value)
+    }
     const handleEmailChange = e =>{
         setEmail(e.target.value);
         //console.log(e.target.value)
@@ -23,13 +37,29 @@ const Registration = () => {
           setError("Password must contain two upper case")
           return;
         }
-        registerNewUser(email, password);
+        registerNewUser(email, password)
+        .then(result =>{
+            navigate(redirect_uri);
+            const loggedUser = result.user;
+            console.log(loggedUser)
+            setError("");
+            verifyEmail();
+            setUserName();
+        })
+        .catch(error=>{
+           setError(error.message)
+       })
     }
     return (
         <div className='mt-5'>
             <div className='form-container mx-auto'>
                 <form onSubmit={handleRegistration}>
                     <h3 className='text-center'>Registration</h3>
+     
+                    <div className="form-group mt-3">
+                        <label>Name</label>
+                        <input type="text" onBlur={handleNameChange} className="form-control" placeholder="Enter your full name" required />
+                    </div>
                     <div className="form-group mt-3">
                         <label>Email address</label>
                         <input type="email" onBlur={handleEmailChange} className="form-control" placeholder="Enter email" required />
@@ -46,12 +76,13 @@ const Registration = () => {
                         <p className="forgot-password text-right">
                             Forgot <a href="#">password?</a>
                         </p>
+                        <p>Already have an account? <Link to='/login'>Please Login</Link></p> 
                     </div>
                     
                 </form>
             </div>
             <div className='text-center'>
-                <button onClick={signInUsingGoogle} className='btn btn-warning'>Google Sign In</button>
+                <button onClick={handleGoogleLogIn} className='btn btn-warning'>Google Sign In</button>
             </div>
         </div>
     );

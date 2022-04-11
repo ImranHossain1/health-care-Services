@@ -4,6 +4,7 @@ import { Button, Carousel } from 'react-bootstrap';
 import banner1 from '../../../images/banner/banner4.jpg';
 import banner2 from '../../../images/banner/banner5.jpg';
 import banner3 from '../../../images/banner/banner8.webp';
+import { Link } from 'react-router-dom';
 const Banner = () => {
     return (
         <>
@@ -21,7 +22,7 @@ const Banner = () => {
                             <h4 className='fs-3 slogan'>We Serve Better Than Any Other</h4>
                             <p className='fs-6 fw-bold'>Not Sure what is going on, come in Today for a Symptom check up, There are many Process</p>
                         </div>
-                        <Button variant="primary" className='rounded-pill px-3 py-2'>Make An Appointment Today</Button>
+                        <Button  as={Link} to="/doctors" variant="primary" className='rounded-pill px-3 py-2'>Make An Appointment Today</Button>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>

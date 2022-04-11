@@ -1,11 +1,12 @@
 import React from 'react';
 import './Info.css'
-import { Card, CardGroup } from 'react-bootstrap';
+import { Button, Card, CardGroup } from 'react-bootstrap';
 import info1 from '../../../images/info/info1.jpg';
 import info2 from '../../../images/info/info2.jpg';
 import info3 from '../../../images/info/info3.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faClock, faCalendar, faDollar } from '@fortawesome/free-solid-svg-icons'
+import { Link } from 'react-router-dom';
 const Info = () => {
     return (
         <CardGroup className='d-flex flex-column flex-lg-row '>
@@ -42,7 +43,7 @@ const Info = () => {
                         <div className='text-center ms-2'>
                             <h3>APPOINTMENT</h3>
                             <p>Appointment are available, call us <br/> today or book a appointment</p>
-                            <button className='rounded-pill button'>Book Now</button>
+                            <Button  as={Link} to="/doctors" className='rounded-pill button'>Book Now</Button>
                         </div>
                    </div>
                 </Card.ImgOverlay>

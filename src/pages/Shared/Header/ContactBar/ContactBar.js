@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebook, faTwitterSquare, faLinkedin } from "@fortawesome/free-brands-svg-icons"
   const ContactBar = () => {
     return (
-        <Navbar className='border py-0 bg-light'>
+        <Navbar className='border border-info py-0 bg-info'>
             <Container >
                 <Navbar.Text>
                     Opening Hours : <a className='text-decoration-none'>Monday to Saturday - 8am to 5pm</a> 

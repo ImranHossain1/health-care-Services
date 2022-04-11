@@ -12,6 +12,10 @@ import Login from './pages/User/Login/Login';
 import Registration from './pages/User/Registration/Registration';
 import PrivateOutlet from './pages/User/PrivateOutlet/PrivateOutlet';
 
+import Doctors from './pages/Doctors/Doctors/Doctors';
+import Confirm from './pages/Appintment/Confirm/Confirm';
+import Appointment from './pages/Appintment/Appointment/Appointment';
+
 function App() {
   return (
     <div className="App">
@@ -21,16 +25,20 @@ function App() {
           <Routes>
             <Route path='/' element={<Home></Home>}></Route>
             <Route path='home' element={<Home></Home>}></Route>
+            <Route path='services/:serviceId' element={<Services></Services>}></Route>
+            {/* private router */}
             <Route path='/*' element={<PrivateOutlet/>}>
-              <Route path='services/:serviceId' element={<Services></Services>}></Route>
+              <Route path='appointment/:doctorId' element={<Appointment/>}></Route>
+              <Route path='confirm' element={<Confirm/>}></Route>
             </Route>
             
             <Route path='/aboutus' element={<Aboutus></Aboutus>}></Route>
             <Route path='/faq' element={<FaQs></FaQs>}></Route>
+            <Route path='/doctors' element={<Doctors></Doctors>}></Route>
             <Route path='/login' element={<Login></Login>}></Route> 
             <Route path='/registration' element={<Registration></Registration>}></Route> 
           </Routes>
-          {/* <Footer></Footer> */}
+           <Footer></Footer>
         </BrowserRouter>
       </AuthProvider>
     </div>

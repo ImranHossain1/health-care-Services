@@ -1,12 +1,14 @@
 import React, { useEffect, useState } from 'react';
-import { createUserWithEmailAndPassword, getAuth, GoogleAuthProvider, onAuthStateChanged, signInWithEmailAndPassword, signInWithPopup, signOut } from "firebase/auth";
+import { createUserWithEmailAndPassword, getAuth, GoogleAuthProvider, onAuthStateChanged, sendEmailVerification, sendPasswordResetEmail, signInWithEmailAndPassword, signInWithPopup, signOut, updateProfile } from "firebase/auth";
 import initializeAuthentication from '../firebase/firebase.init';
 initializeAuthentication();
 const useFirebase = () => {
+    const [name, setName] = useState('');
     const [user, setUser] =useState({});
     const [error, setError]= useState('');
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
+    const [isLoading, setIsLoading] = useState(true);
     const googleProvider = new GoogleAuthProvider();
     const auth = getAuth();
     const signInUsingGoogle =()=>{
@@ -14,22 +16,50 @@ const useFirebase = () => {
     }
     //Email and password registration
     const registerNewUser = (email, password)=>{
-        createUserWithEmailAndPassword(auth, email, password)
-        .then(result =>{
+        return createUserWithEmailAndPassword(auth, email, password);
+        /* .then(result =>{
           const loggedUser = result.user;
           console.log(loggedUser)
           setError("");
-          //verifyEmail();
-          //setUserName();
+          verifyEmail();
+          setUserName();
         })
         .catch(error=>{
           setError(error.message)
+        }) */
+    }
+    //Verify Email Address
+    const verifyEmail = () =>{
+        sendEmailVerification(auth.currentUser)
+        .then(result=>{
+          console.log(result)
         })
+      }
+
+    //reset Password
+    const handleResetPassword=()=>{
+        sendPasswordResetEmail(auth, email)
+        .then(() => {
+        })
+        .catch((error) => {
+          setError(error.message)
+        });
+      }
+    //set display Name
+    const setUserName= ()=>{
+      updateProfile(auth.currentUser, {
+        displayName: name
+      }).then(() => {
+        
+      }).catch((error) => {
+        setError(error)
+      });
     }
 
+    
     //Email and password login
     const processLogin = (email, password)=>{
-        return signInWithEmailAndPassword(auth, email, password);
+        return signInWithEmailAndPassword(auth, email, password)
       }
     const logOut =()=>{
         signOut(auth)
@@ -45,6 +75,10 @@ const useFirebase = () => {
             if(user){
                 setUser(user)
             }
+            else{
+                setUser({});
+            }
+            setIsLoading(false);
         });
         return unsubscribe;
     },[])
@@ -59,7 +93,11 @@ const useFirebase = () => {
         setEmail,
         password,
         setPassword,
-        processLogin
+        processLogin,
+        handleResetPassword, 
+        setName,
+        verifyEmail,
+        setUserName
     }
 };
 
