@@ -1,6 +1,6 @@
 # Health Care Hospital
 
-The Live Server link is: [Web Education](https://health-care-service-d3a56.web.app/).
+The Live Server link is: [Health Care Hospital](https://health-care-service-d3a56.web.app/).
 
 ## Packages Install
 
