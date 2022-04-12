@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 import NavServices from '../NavServices/NavServices';
 import useAuth from '../../../../../hooks/useAuth';
-import useDoctors from '../../../../../hooks/useDoctors';
+
 
 const Navigation = () => {
     const [{services}, {user, logOut}] = useAuth();
@@ -52,7 +52,7 @@ const Navigation = () => {
                         className="me-2"
                         aria-label="Search"
                         />
-                        <Button variant="outline-success">Search</Button>
+                        <Button variant="outline-primary" >Search</Button>
                     </Form>
                     <Nav className="ms-lg-2 mt-lg-0 mt-2">
                         {

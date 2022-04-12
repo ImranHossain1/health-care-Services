@@ -7,7 +7,7 @@
     {
       "key": 2,
       "question": "How can I have the teleconsultation with the doctor of your hospital?",
-      "answer": "You can access the link directly by typing ecare.evercarebd.com:8000/in the browser, or you can navigate by clicking the online consultation appointment link mentioned in our official website ecare.evercarebd.com"
+      "answer": "You can access the link directly by typing ecare.healthcarebd.com:8000/in the browser, or you can navigate by clicking the online consultation appointment link mentioned in our official website ecare.healthcarebd.com"
     },
     {
       "key": 3,
@@ -23,7 +23,7 @@
       "key": 5,
       "question": "How can I pay teleconsultation fee?",
       "answer": "you can pay online though different methods like",
-      "service_img": "https://www.evercarebd.com/wp-content/uploads/2020/04/mobile-services.png"
+      "service_img": "https://www.healthcarebd.com/wp-content/uploads/2020/04/mobile-services.png"
     },
     {
       "key": 6,

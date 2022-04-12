@@ -8,17 +8,8 @@ import useAuth from '../../../hooks/useAuth';
 import AppointmentDetail from '../AppointmentDetail/AppointmentDetail';
 
 const Appointment = (props) => {
-    //console.log(user)
     const {doctorId} = useParams();
-    //const {doctors} = useDoctors();
-    
-
-
     const location = useLocation()
-    //console.log(doctors)
-    //const { register, formState: { errors } } = useForm();
-
-
     return (  location.state?
                 <AppointmentDetail
                     doctorName={location.state.doctorName}
