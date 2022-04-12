@@ -56,8 +56,11 @@ const Navigation = () => {
                     </Form>
                     <Nav className="ms-lg-2 mt-lg-0 mt-2">
                         {
-                            user?.email? 
+                            user?.email?
+                            <div> 
+                                <span className='text-success pe-2 fs-5'>{user.displayName}</span>
                                 <Button as={Link} to="/login" className='' onClick={logOut}>SignOut</Button>
+                            </div>
                             :
                                 <div className=''>
                                     <Button as={Link} to="/login" className='me-2'>Login</Button>
