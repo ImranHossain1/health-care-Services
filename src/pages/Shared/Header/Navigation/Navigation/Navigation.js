@@ -13,7 +13,7 @@ const Navigation = () => {
  
     return (
         <>
-           <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+           <Navbar collapseOnSelect expand="lg"  bg="dark" variant="dark" fixed="top">
             <Container>
                 <Nav.Link as={Link} to='/home'>
                     <img 
