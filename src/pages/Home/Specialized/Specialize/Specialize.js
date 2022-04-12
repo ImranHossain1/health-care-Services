@@ -4,7 +4,7 @@ import { Button } from 'react-bootstrap';
 const Specialize = ({specialize}) => {
     const {name, element, details, link} = specialize;
     return (
-        <div className="col-lg-4 col-sm-6 col-12p-5 mb-5">
+        <div className="col-lg-4 col-sm-6 col-12 p-5 mb-5">
             <div>{element}</div>
             <h3>{name}</h3>
             <p className='px-lg-5'>{details}</p>

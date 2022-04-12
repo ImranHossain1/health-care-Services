@@ -36,7 +36,7 @@ const Specializes = () => {
             <div className=''>
                 <h2 className='specialize-heading mb-5'>We Specialize in</h2>
             </div>
-            <div className="row px-5">
+            <div className="row w-100">
                 {
                     specializes.map(specialize=><Specialize
                         key= {specialize.key}
