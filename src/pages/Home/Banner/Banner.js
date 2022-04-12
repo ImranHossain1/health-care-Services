@@ -22,7 +22,7 @@ const Banner = () => {
                             <h4 className='fs-3 slogan'>We Serve Better Than Any Other</h4>
                             <p className='fs-6 fw-bold'>Not Sure what is going on, come in Today for a Symptom check up, There are many Process</p>
                         </div>
-                        <Button  as={Link} to="/doctors" variant="primary" className='rounded-pill px-3 py-2'>Make An Appointment Today</Button>
+                        <Button as={Link} to="/doctors" variant="primary" className='rounded-pill px-3 py-2'>Make An Appointment Today</Button>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -38,7 +38,7 @@ const Banner = () => {
                             <h4 className='fs-3 slogan'>We Serve Better Than Any Other</h4>
                             <p className='fs-6 fw-bold'>Not Sure what is going on, come in Today for a Symptom check up, There are many Process</p>
                         </div>
-                        <Button variant="primary" className='rounded-pill px-3 py-2'>Make An Appointment Today</Button>
+                        <Button as={Link} to="/doctors" variant="primary" className='rounded-pill px-3 py-2'>Make An Appointment Today</Button>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -55,7 +55,7 @@ const Banner = () => {
                             <h4 className='fs-3 slogan'>We Serve Better Than Any Other</h4>
                             <p className='fs-6 fw-bold'>Not Sure what is going on, come in Today for a Symptom check up, There are many Process</p>
                     </div>
-                    <Button variant="primary" className='rounded-pill px-3 py-2'>Make An Appointment Today</Button>
+                    <Button as={Link} to="/doctors" variant="primary" className='rounded-pill px-3 py-2'>Make An Appointment Today</Button>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>  
